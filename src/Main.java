@@ -40,7 +40,7 @@ public class Main {
         int clientDeviceYear = 2022;
         checkClientOS(clientOS,clientDeviceYear);
 
-        int deliveryDistance = 91;
+        int deliveryDistance = 95;
         int countDay = checkCountDay(deliveryDistance);
         if (deliveryDistance < 20) {
             System.out.println("Для доставки потребуется дней: 1");
